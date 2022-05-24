@@ -1,7 +1,7 @@
 # react-portfolio
 
 ## Description
-This application offers some information about me, shows my portfolio of projects, has a contact form that allows users to contact me, and has links to my resume, LinkedIn, and GitHub.
+This application offers some information about me, shows my portfolio of projects, has a contact form that allows users to contact me, and has links to my resume, LinkedIn, and GitHub, all by using React JS.
 
 ## Table of Contents
 - [Description](#description)
