@@ -1,4 +1,5 @@
 import React from 'react';
+import pic from "../../../assets/IMG_9670.JPG"
 
 function About () {
 
@@ -6,7 +7,7 @@ function About () {
         <section className="container">
             <h2 className="top-title">Chris Reilly</h2>
             <div>
-                <img className="mb-5" id="avatar" src="../../../assets/IMG_9670.JPG" alt="Chris Reilly" />
+                <img className="mb-5" id="avatar" src={pic} alt="Chris Reilly" />
 
                 <p>
                 I am a recent graduate from the Univeristy of Denver, with a Bachelors in Finance and a Minor in Accounting. Currently, I am working in Denver for a mid-sized accounting firm called Armanino LLP as a Risk Assurance and Advisory Services Associate. 

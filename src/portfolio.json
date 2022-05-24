@@ -12,5 +12,10 @@
         "image": "https://cdn-icons-png.flaticon.com/512/1684/1684355.png",
         "github": "https://github.com/chris-reilly99/Earthquake-Experience",
         "deploy": "https://blooming-caverns-49714.herokuapp.com/"
+    },
+    {
+        "id": 3,
+        "name": "Chris Pic Collage",
+        "src": "../assets/IMG_9670.JPG"
     }
 ]
