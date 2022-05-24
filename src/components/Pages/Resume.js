@@ -1,4 +1,5 @@
 import React from "react";
+import resoomay from "../../assets/ChristopherReilly-GeneralResume.pdf";
 
 function Resume() {
   return (
@@ -25,7 +26,7 @@ function Resume() {
             </a>
           </p>
 
-          <a href="../../../assets/Christopher Reilly - General Resume.pdf" class="link">Download Resume 6/7/2021</a>
+          <a href={resoomay} class="link">Download Resume 6/7/2021</a>
         </div>
       </div>
     </section>
