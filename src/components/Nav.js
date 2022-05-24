@@ -7,25 +7,25 @@ function Nav({ currentPage, handlePageChange }) {
     <div>
         <ul className="navbar-nav ml-auto navitem-indent">
           <li className="nav-item">
-            <a href="./About"
+            <a
             onClick={() => handlePageChange('About')}
             className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
             >About</a>
           </li>
           <li className="nav-item">
-            <a href="/portfolio"
+            <a
             onClick={() => handlePageChange('Portfolio')}
             className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
             >Portfolio</a>
           </li>
           <li className="nav-item">
-            <a href="/contact"
+            <a
             onClick={() => handlePageChange('Contact')}
             className={currentPage === 'contact' ? 'nav-link active' : 'nav-link'}
             >Contact</a>
           </li>
           <li className="nav-item">
-            <a href="/resume"
+            <a 
             onClick={() => handlePageChange('Resume')}
             className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
             >Resume</a>
