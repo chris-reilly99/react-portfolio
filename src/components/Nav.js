@@ -5,7 +5,7 @@ import React from "react";
 function Nav({ currentPage, handlePageChange }) {
   return (
     <div>
-        <ul className="navbar-nav ml-auto navitem-indent">
+        <ul className="navbar navitem">
           <li className="nav-item">
             <a 
             onClick={() => handlePageChange('About')}
